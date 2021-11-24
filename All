@@ -1,0 +1,16 @@
+#print Sojib [Akash] is acoder
+print("Sojib [Akash] is a coder")
+at=f'{"Sojib"} {["Akash"]} is a coder'
+print(at)
+
+#String method
+course="Python for beginners"
+print(len(course))
+print(course.upper())
+print(course.find('y'))
+print(course.replace("beginners","Absoulte beginners"))
+print("for" in course)
+print(course.title())
+#operator precedence = exponentiation>multiplication>division>add or sub
+x=10+3*2**2
+print(x)#22
