@@ -1,4 +1,4 @@
-#print Sojib [Akash] is acoder
+#print Sojib [Akash] is a coder
 print("Sojib [Akash] is a coder")
 at=f'{"Sojib"} {["Akash"]} is a coder'
 print(at)
