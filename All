@@ -14,3 +14,51 @@ print(course.title())
 #operator precedence = exponentiation>multiplication>division>add or sub
 x=10+3*2**2
 print(x)#22
+i=0
+prices=[10,20,30]
+for i in prices:
+    i=i+i
+print(i)
+
+#Guess
+secret_number=9
+guess_count=0
+guess_limit=3
+while guess_count<guess_limit:
+   guess= int(input("Guess : "))
+   guess_count+=1
+   if guess==secret_number:
+       print("You Win!")
+       break
+else:
+    print("You failed")
+    
+    
+ #Car game   
+    Command= ""
+started=False
+while True:
+    Command=input("> ").lower()
+    if Command== "start":
+        if started:
+            print("Car is already started!")
+        else:
+            started=True
+            print("Car Started...Ready to go!")
+    elif Command== "stop":
+        if not started:
+            print("Car is alredy Stopped!")
+        else:
+            started=False
+            print("Car stopped")
+    elif Command== "help":
+        print("""
+start - to start the car
+stop - to stop the car
+quit - to quit        
+        """)
+    elif Command== "quit":
+        break
+    else:
+        print("Sorry , I don't understand")
+        
