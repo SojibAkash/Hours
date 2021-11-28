@@ -62,3 +62,18 @@ quit - to quit
     else:
         print("Sorry , I don't understand")
         
+  #Find the maximum number in a list
+li=[30,6,834,9]
+max=li[0]
+for number in li:
+    if number > max:
+        max=number
+print(max)
+
+#2D Lists
+matrix=[
+    [1,2,3],
+    [4,5,6],
+    [7,8,9]
+]
+print(matrix[2])
