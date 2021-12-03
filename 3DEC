@@ -1,1 +1,40 @@
+#Class & Object
+class Point:
+    def __init__(self,x,y):
+        self.x=x
+        self.y=y
 
+    def move(self):
+        print("move")
+    def drea(self):
+        print("draw")
+
+point=Point(10,20)
+print(point.y)
+
+#Inheritence
+class Dog:
+    def walk(self):
+        print("walk")
+        
+
+class Cat(Dog):
+    pass
+
+
+cat1=Cat()
+cat1.walk()
+#Modules
+import converters
+from converters import lbs_to_kg
+
+print(converters.lbs_to_kg(70)
+
+
+#Generating Random Variables
+import random
+for i in range(3):
+    print(random.random())
+#int
+for i in range(3):
+    print(random.randint(10,20))
